@@ -5,8 +5,7 @@
 import { SectionValidation } from "../validation/sectionValidation";
 import { DataValidation } from "../functions/dataValidation";
 import { OdsAndSdSection } from "../validation/odsandsdValidation";
-import { loadData } from "../functions/loadData";
-
+import { loadData } from "../functions/loaddata";
 Office.onReady(async (info) => {
   if (info.host === Office.HostType.Excel) {
     document.getElementById("loaddata").addEventListener('click',loadData)
