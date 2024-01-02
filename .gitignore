@@ -1,0 +1,5 @@
+node_modules/
+/manifests/
+/build/
+/dist/
+/.vscode/
