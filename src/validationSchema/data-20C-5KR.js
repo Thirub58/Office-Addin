@@ -1,0 +1,23 @@
+import { z } from "zod";
+export const data_20Columns_Schema = z.object({
+  Column1: z.string(),
+  Column2: z.number(),
+  Column3: z.string(),
+  Column4: z.number(),
+  Column5: z.string(),
+  Column6: z.number(),
+  Column7: z.string(),
+  Column8: z.number(),
+  Column9: z.string(),
+  Column10: z.number(),
+  Column11: z.string(),
+  Column12: z.number(),
+  Column13: z.string(),
+  Column14: z.number(),
+  Column15: z.string(),
+  Column16: z.number(),
+  Column17: z.string(),
+  Column18: z.number(),
+  Column19: z.string(),
+  Column20: z.number(),
+});
